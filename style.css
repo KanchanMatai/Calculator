@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(to right, black, grey);
+}
+table.tbl{
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:15px;
+    box-shadow:rgba(0,0,0,0.6) 0px 22px 70px 4px;
+}
+input[type ="button"]{
+    color: black;
+    cursor:pointer;
+    background:white;
+    font-size:2em;
+    font-weight: bolder;
+    border:1px solid #ddd;
+    padding: 20px;
+    width:100%;
+    margin:10px 60px 10px 0px;
+}
+input[type ="text"]{
+    color:black;
+    background: white;
+    border:1px solid #ddd;
+    padding:20px;
+    font-size:2em;
+    width:100%;
+}
+#clear{
+  background:red;
+  border:1px solid #ff9fa8;
+  width:80%;
+  height: 55px;
+  margin-left: 40px;
+  padding:36px;
+  font-size:25px;
+}
